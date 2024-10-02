@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("#one").fadeIn(4000);
+        $("#two").fadeIn(4000);
+        $("#three").fadeIn(4000);
+        $("#four").fadeIn(4000);
+    });
+});
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("#one").fadeOut(1000);
+        $("#two").fadeOut(1000);
+        $("#three").fadeOut(1000);
+        $("#four").fadeOut(1000);
+    });
+});
